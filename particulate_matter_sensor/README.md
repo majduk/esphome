@@ -24,7 +24,7 @@ This build is based on a blog entry at [pieterbrinkman.com](https://www.pieterbr
 ## Configuration
 
 **Note**
-The [configuration](esp32dev1.yaml) stores secrtets in `secrets.yaml`, not included in this repo:
+The [configuration](pmsensor.yaml) stores secrtets in `secrets.yaml`, not included in this repo:
 ```
 wifi_ssid: <REDACTED>
 wifi_password: <REDACTED>
