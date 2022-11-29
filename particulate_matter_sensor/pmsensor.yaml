@@ -25,8 +25,8 @@ ota:
   password: !secret api_password
 
 uart:
-  tx_pin: GPIO15
-  rx_pin: GPIO2
+  tx_pin: GPIO2
+  rx_pin: GPIO4
   baud_rate: 9600
 
 sensor:
@@ -42,7 +42,7 @@ sensor:
 switch:
   - platform: gpio
     pin: 
-      number: GPIO4
+      number: GPIO15
     id: pms_enable
     name: "Enable sensor"
   

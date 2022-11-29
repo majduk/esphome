@@ -15,9 +15,9 @@ This build is based on a blog entry at [pieterbrinkman.com](https://www.pieterbr
 |---------|--------|------------|
 | 1   | Vcc        | VCC        |
 | 2   | GND        | GND        |
-| 3   | SET        | 3V3        |
-| 4   | RX         | GPIO15     |
-| 5   | TX         | GPIO2      |
+| 3   | SET        | GPIO15     |
+| 4   | RX         | GPIO2      |
+| 5   | TX         | GPIO4      |
 
 ![setup](images/PXL_20221116_102902793.jpg)
 
@@ -37,8 +37,8 @@ api_password: <REDACTED>
 Configuration overview:
 ```
 uart:
-  tx_pin: GPIO15
-  rx_pin: GPIO2
+  tx_pin: GPIO2
+  rx_pin: GPIO4
   baud_rate: 9600
 
 sensor:
